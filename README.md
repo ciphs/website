@@ -17,4 +17,4 @@ funded by CIPHS-DevFoundations
 4. Make a pull request to [CIPHS's website master branch](https://github.com/ciphs/website). Remember to include your "/YOUR.REPO.URL/" within your pr comment box.
 
 #### ALLOCATIONS
-Propose of 100,000 CIPHS allocated for this project by CIPHS Development Funds, will be split into few milestone as propose by Developer. 
+Payment in CIPHS. You may propose price in USD$ but will be paid in CIPHS, allocated for this project by CIPHS Development Funds. Price must be split into few milestone as propose by Developer. 
