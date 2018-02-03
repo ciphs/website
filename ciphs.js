@@ -3,7 +3,7 @@ const writeValue = (elementId, value) => document.getElementById(elementId).text
 const toEthString = wei => wei / 10**18 + ' ETH';
 
 /// constants
-const abi = 'https://gist.github.com/nidscom/22fb2a4ff20cd6b30855c717b9296cd5'; 
+const abi = 'https://gist.github.com/nidscom/'; 
 const targetApi = 'https://mainnet.infura.io/lzmvnv0GkIOUV7jzh3RJ';
 const contractAddress = '0xA4FF5CE0556f9fF0797Ae525ec5bA9B723878A3E';
 
