@@ -1,5 +1,5 @@
 # CIPHS©
-https://ciphs.org official website repo
+http://ciphs.org official website repo
 funded by DevFoundations @ CIPHS.ORG
 
 #### Guideline
