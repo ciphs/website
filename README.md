@@ -1,6 +1,6 @@
 # CIPHS©
 http://ciphs.org official website repo
-funded by DevFoundations @ CIPHS.ORG
+funded by CIPHS-DevFoundations
 
 #### Guideline
 
@@ -17,4 +17,4 @@ funded by DevFoundations @ CIPHS.ORG
 4. Make a pull request to [CIPHS's website master branch](https://github.com/ciphs/website). Remember to include your "/YOUR.REPO.URL/" within your pr comment box.
 
 #### ALLOCATIONS
-100,000 CIPHS is allocate from CIPHS Development Funds, will be split into few milestone as propose by Developer. 
+Propose of 100,000 CIPHS allocated for this project by CIPHS Development Funds, will be split into few milestone as propose by Developer. 
