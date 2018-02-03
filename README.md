@@ -4,13 +4,11 @@ funded by DevFoundations @ CIPHS.ORG
 
 #### Guideline
 
-1.Open Source,
-
-2.Not involving personal data other than associated contract address
-
-3.Public License (GNU or MIT)
- 
-4.Info website
+1. Open Source,
+2. Not involving personal data other than associated contract address
+3. Public License (GNU or MIT)
+4. Infographical website
+5. Propose milestone with amount of CIPHS for each task.
 
 #### Contribution Process
 1. Fork [CIPHS's website repo](https://github.com/ciphs/website)
@@ -19,4 +17,4 @@ funded by DevFoundations @ CIPHS.ORG
 4. Make a pull request to [CIPHS's website master branch](https://github.com/ciphs/website). Remember to include your "/YOUR.REPO.URL/" within your pr comment box.
 
 #### ALLOCATIONS
-100,000 CIPHS
+100,000 CIPHS is allocate from CIPHS Development Funds, will be split into few milestone as propose by Developer. 
