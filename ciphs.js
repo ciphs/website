@@ -3,7 +3,7 @@ const writeValue = (elementId, value) => document.getElementById(elementId).text
 const toEthString = wei => wei / 10**18 + ' ETH';
 
 /// constants
-const abi = 'https://api.etherscan.io/api?module=contract&action=getabi&address=0xa4ff5ce0556f9ff0797ae525ec5ba9b723878a3e'; 
+const abi = 'http://api.etherscan.io/api?module=contract&action=getabi&address=0xa4ff5ce0556f9ff0797ae525ec5ba9b723878a3e&format=raw'; 
 const targetApi = 'https://mainnet.infura.io/lzmvnv0GkIOUV7jzh3RJ';
 const contractAddress = '0xA4FF5CE0556f9fF0797Ae525ec5bA9B723878A3E';
 
