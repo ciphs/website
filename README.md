@@ -1,6 +1,5 @@
 # CIPHS©
 http://ciphs.org official website repo
-funded by CIPHS-DevFoundations
 
 #### Guideline
 
@@ -8,7 +7,7 @@ funded by CIPHS-DevFoundations
 2. Not involving personal data other than associated contract address
 3. Public License (GNU or MIT)
 4. Infographical website
-5. Propose milestone with amount of CIPHS for each task.
+5. Propose milestone with price in USD$ for each task.
 
 #### Contribution Process
 1. Fork [CIPHS's website repo](https://github.com/ciphs/website)
