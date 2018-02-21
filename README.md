@@ -1,12 +1,12 @@
 # CIPHS©
 ### Website Repo
 
-License
+#### License
 Please refer [license](https://github.com/ciphs/website/blob/master/LICENSE) for Copying from Ciphs.org repo.
 
 Ciphs.org official website repo for [http://ciphs.org](http://ciphs.org).
 
-Contribution
+#### Contribution
 Fork, Change and Commit to master repo. Will be review by Core Dev.
 
 #### Merge Version
