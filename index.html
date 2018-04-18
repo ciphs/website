@@ -51,7 +51,7 @@
               <a class="nav-link js-scroll-trigger" href="#wallet">Wallets</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#investor">Community</a>
+              <a class="nav-link js-scroll-trigger" href="#investor">Investor</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#exchange">Exchange</a>
@@ -348,34 +348,8 @@
     
   <section class="bg-dark text-white">
       <div class="container text-center">
-     <style>
-    #token-txs-11 {
-        line-height: 1.8;
-        border-radius: 8px;
-        max-width: 1000px !important;
-        background-blend-mode: darken;
-        background-color: rgba(33, 37, 41, 1);
-    }
-    #token-txs-11 .txs.big-screen-table td .tx-amount{
-        display: inline-block;
-        width: 150px;
-        white-space: nowrap;
-    }
-    #token-txs-11 .txs.big-screen-table td .tx-link{
-        max-width: 120px;
-    }
-    #token-txs-11 .txs.big-screen-table td .tx-link:last-child{
-        max-width: 150px;
-    }
-    #token-txs-11 .txs.big-screen-table td .tx-amount a:nth-child(1){
-        max-width: 110px !important;
-    }
-    #token-txs-11 .txs.big-screen-table td .tx-amount  a:nth-child(2){
-        max-width: 50px !important;
-    }
-
-</style>
-<div id="token-txs-11"></div>
+        <h2 class="section-heading">Global Recent Tx</h2>
+    <div id="token-txs-10"></div>
 <script type="text/javascript">
     if (typeof (eWgs) === 'undefined') {
         document.write('<scr' + 'ipt src="https://api.ethplorer.io/widget.js?' + new Date().getTime().toString().substr(0, 7) + '" async></scr' + 'ipt>');
@@ -383,17 +357,11 @@
     }
     eWgs.push(function () {
         ethplorerWidget.init(
-            '#token-txs-11', // Placeholder element
+            '#token-txs-10', // Placeholder element
             'tokenHistory', // Widget type
             {
-                address: '0xa4ff5ce0556f9ff0797ae525ec5ba9b723878a3e','0xa4ff5ce0556f9ff0797ae525ec5ba9b723878a3e',// keep empty to show all tokens
-                limit: 5, // Number of records to show
-            },
-            {
-                header: '<div class="txs-header">©IPHS Recent Transactions</div>', // customized header
-                loader: '<div class="txs-loading">* © * I * P * H * S *<br><small>Please wait...</small></div>', // customized loader
-                bigScreenTable: '<tr><td>%from% <span class="tx-send">sent</span> <span class="tx-amount">%amount% %token%</span> <span class="tx-send">to</span> %to% <span class="tx-send">at</span><span class="tx-date"> %datetime%</span></td></tr>'
-
+                address: '0xa4ff5ce0556f9ff0797ae525ec5ba9b723878a3e', // keep empty to show all tokens
+                limit: 10, // Number of records to show
             }
 
         );
