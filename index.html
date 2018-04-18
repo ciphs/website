@@ -346,28 +346,6 @@
       </div>
     </section>
     
-  <section class="bg-dark text-white">
-      <div class="container text-center">
-        <h2 class="section-heading">Global Tx within Eth Network</h2>
-    <div id="token-txs-10"></div>
-<script type="text/javascript">
-    if (typeof (eWgs) === 'undefined') {
-        document.write('<scr' + 'ipt src="https://api.ethplorer.io/widget.js?' + new Date().getTime().toString().substr(0, 7) + '" async></scr' + 'ipt>');
-        var eWgs = [];
-    }
-    eWgs.push(function () {
-        ethplorerWidget.init(
-            '#token-txs-10', // Placeholder element
-            'tokenHistory', // Widget type
-            {
-                address: '0xa4ff5ce0556f9ff0797ae525ec5ba9b723878a3e', // keep empty to show all tokens
-                limit: 10, // Number of records to show
-            }
-
-        );
-    });
-</script>
-    
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
