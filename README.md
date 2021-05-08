@@ -1,7 +1,7 @@
 # CIPHS©
 ### Website Repo
 
-Not relevant to CIP#2. Will update once CIP#3 documentation has been complete.
+Uodated!
 
 #### License
 Please refer [license](https://github.com/ciphs/website/blob/master/LICENSE) for Copying from Ciphs.org repo.
